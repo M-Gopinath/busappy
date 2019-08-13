@@ -1,0 +1,17 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
+.return-routes {
+  display: none;
+}
+.btn.return-btn {
+  width: 150px;
+  margin: 20px;
+}
+.error-text {
+  display: none;
+  color: red;
+  text-align: center;
+}

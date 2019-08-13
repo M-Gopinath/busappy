@@ -1,0 +1,93 @@
+
+<div class="container">
+	<div class="row">
+		
+				
+				
+				
+				<div class="col-sm-3" >
+				<div class="go"> Let's Drive
+
+					<input id="origin-input" class="maploc" type="text"placeholder="Enter an origin location">
+
+					<input id="destination-input" class="maploc" type="text"placeholder="Enter a destination location">
+
+					<div id="mode-selector" class="contols">
+					
+						<input type="radio" name="type" id="changemode-walking" onclick="checked">
+						<label for="changemode-walking">Walk</label>
+
+						<input type="radio" name="type" id="changemode-transit">					<label for="changemode-transit">Drive</label>
+
+<div id="main-icons">
+<a href=""><%= image_tag("propics/android.png") %></a>
+<a href=""><%= image_tag("propics/apple.png") %></a>
+</div>
+
+
+					</div>
+				</div>
+				</div>
+
+
+
+					<div class="col-sm-3" >
+					
+					<div id="map"></div>
+
+				
+			
+					</div>
+
+					
+					<div class="col-sm-3" >
+					
+					
+
+								
+							
+								<a href="citybus.html">							
+								<div class="b6">
+								<%= image_tag("propics/bus1.png") %>
+								<a href="/new/citybus.html" button type="button" class="btn btn-success" role="button">City Bus</a>
+								</div>
+								</a>
+								       
+								<a href="citybus.html">
+								<div class="b3">
+								<%= image_tag("propics/bus1.png") %>
+								<a href="/new/citybus.html" class="btn btn-info" role="button">Buses </a>
+								</div>
+								</a>
+						</div>
+									
+									
+									<div class="col-sm-3" >
+										
+										
+										<div class="fresh-cities">Our Cities
+				                        </div>
+									</div>
+					
+	</div>	
+ </div>
+
+
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwMxo4Zne-NBl8A8h-MBYlgjxppC_5rLc&libraries=places&callback=initMap"async defer>
+</script>
+
+
+   <script src="js/index.js">
+</script>
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
